@@ -1,0 +1,198 @@
+:root {
+  --primari-text-color: #212121;
+  --text-color: #757575;
+  --background-color: #ffffff;
+  --accent-color: #2196f3;
+  --phone-color: rgba(255, 255, 255, 0.6);
+  --secondary-color-grey: #f5f4fa;
+  --secondary-color-blue: #2f303a;
+  --text-color-white: #ffffff;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--primari-text-color);
+  font-family: Roboto, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Comfortaa;
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.products {
+  padding-top: 121px;
+  padding-bottom: 98px;
+  
+}
+.card-comand {
+  position: relative;
+  background-color: #ffb8ca;
+  color: #ffffff;
+  width: 280px;
+  height: 598px;
+  box-shadow: rgba(255, 184, 202, 1);
+  border-radius: 24px;
+
+  box-sizing: border-box;
+  padding-top: 161px;
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-bottom: 41px;
+  margin-bottom: 120px;
+}
+.card-comand-grey {
+  position: relative;
+  background-color: #f0d1a5;
+  color: #ffffff;
+  width: 280px;
+  height: 598px;
+
+  box-shadow: rgba(240, 209, 165, 1);
+  border-radius: 24px;
+
+  box-sizing: border-box;
+  padding-top: 161px;
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-bottom: 41px;
+   margin-bottom: 130px;
+}
+.card-comand-green {
+  position: relative;
+  display: block;
+  background-color: #c2e297;
+  color: #ffffff;
+  width: 280px;
+  height: 598px;
+
+  box-shadow: rgba(194, 226, 151, 1);
+  border-radius: 24px;
+   display: block;
+
+  box-sizing: border-box;
+  padding-top: 161px;
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-bottom: 41px;
+}
+.social-card {
+ 
+}
+.social-card-section-text {
+  display: flex;
+  text-transform: uppercase;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #FFFFFF;
+
+  margin-bottom: 30px;
+}
+.social-card-name {
+  margin-bottom: 30px;
+
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+
+}
+.soc-media-logo {
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.soc-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.command-item {
+  
+}
+.products-thumb {
+  position: absolute;
+  top: -20%;
+  right: 15px;
+  display: flex;
+}
+.social-card-title h2 {
+  font-family: Titan One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFA5BA;
+
+margin-bottom: 15px;
+
+}
+.social-card-title h1 {
+   font-family: Titan One;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 39px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #D41443;
+ margin-bottom: 144px;
+}
+
+
